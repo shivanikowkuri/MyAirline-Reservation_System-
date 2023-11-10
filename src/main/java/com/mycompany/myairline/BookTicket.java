@@ -18,7 +18,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author rahul
+ * @author shivani
  */
 public class BookTicket extends javax.swing.JInternalFrame {
 
