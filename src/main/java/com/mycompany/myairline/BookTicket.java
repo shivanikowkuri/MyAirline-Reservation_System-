@@ -464,7 +464,7 @@ public class BookTicket extends javax.swing.JInternalFrame {
                
          try{
            Class.forName("com.mysql.cj.jdbc.Driver");
-           Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/airline_reservation_system", "root", "Rahul@1234");
+           Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/airline_reservation_system", "root", "shivani@1234");
            
            Statement st = con.createStatement();
             ResultSet set = st.executeQuery("select * from customer where CustomerId='"+id+"' ");
@@ -513,7 +513,7 @@ public class BookTicket extends javax.swing.JInternalFrame {
         String Departure =(String) departure.getSelectedItem();
         try{
            Class.forName("com.mysql.cj.jdbc.Driver");
-           Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/airline_reservation_system", "root", "Rahul@1234");
+           Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/airline_reservation_system", "root", "shivani@1234");
            
            Statement st = con.createStatement();
             ResultSet set = st.executeQuery("select * from flight where Arrival='"+Arrival+"' and Departure='"+Departure+"' ");
@@ -563,7 +563,7 @@ public class BookTicket extends javax.swing.JInternalFrame {
         // bring fare from flight;
         try{
            Class.forName("com.mysql.cj.jdbc.Driver");
-           Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/airline_reservation_system", "root", "Rahul@1234");
+           Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/airline_reservation_system", "root", "shivani@1234");
            
            Statement st = con.createStatement();
             ResultSet set = st.executeQuery("select Fare, FlightName from flight where FlightId='"+flightId+"' ");
@@ -604,7 +604,7 @@ public class BookTicket extends javax.swing.JInternalFrame {
         
         try{
            Class.forName("com.mysql.cj.jdbc.Driver");
-           Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/airline_reservation_system", "root", "Rahul@1234");
+           Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/airline_reservation_system", "root", "shivani@1234");
            
            PreparedStatement pst = con.prepareStatement("insert into ticket (TicketId, FlightName, Arrival, Departure, FirstName, LastName, Gender, Contact) values (?, ?, ? , ?, ?, ?, ?, ?)");
            pst.setString(1, TkId);
