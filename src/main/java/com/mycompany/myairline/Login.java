@@ -13,7 +13,7 @@ import java.sql.*;
 
 /**
  *
- * @author rahul
+ *
  */
 public class Login extends javax.swing.JFrame {
 
@@ -144,7 +144,7 @@ public class Login extends javax.swing.JFrame {
         String key = jPasswordField1.getText().trim();
         try{
            Class.forName("com.mysql.cj.jdbc.Driver");
-           Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/airline_reservation_system", "root", "Rahul@1234");
+           Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/airline_reservation_system", "root", "shivani@1234");
            
            Statement st = con.createStatement();
             ResultSet set = st.executeQuery("select * from admin where username='"+user+"' and password='"+key+"'  ");
