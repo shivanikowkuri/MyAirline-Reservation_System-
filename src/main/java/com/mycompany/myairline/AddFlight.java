@@ -17,7 +17,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author rahul
+ * @author shivani
  */
 public class AddFlight extends javax.swing.JInternalFrame {
 
@@ -336,7 +336,7 @@ public class AddFlight extends javax.swing.JInternalFrame {
         // connection ctreation 
         try{
            Class.forName("com.mysql.cj.jdbc.Driver");
-           Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/airline_reservation_system", "root", "Rahul@1234");
+           Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/airline_reservation_system", "root", "shivani@1234");
            
            Statement st = con.createStatement();
             ResultSet set = st.executeQuery("select MAX(FlightId) from flight");
