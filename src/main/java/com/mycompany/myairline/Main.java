@@ -6,7 +6,7 @@ package com.mycompany.myairline;
 
 /**
  *
- * @author rahul
+ * 
  */
 public class Main extends javax.swing.JFrame {
 
