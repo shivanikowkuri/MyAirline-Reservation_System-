@@ -18,7 +18,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author rahul
+ * @author shivani
  */
 public class Admin extends javax.swing.JInternalFrame {
 
@@ -202,7 +202,7 @@ public class Admin extends javax.swing.JInternalFrame {
         
         try{
            Class.forName("com.mysql.cj.jdbc.Driver");
-           Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/airline_reservation_system", "root", "Rahul@1234");
+           Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/airline_reservation_system", "root", "shivani@1234");
            
            PreparedStatement pst = con.prepareStatement("insert into admin (AdminId, FirstName,  LastName, username, password ) values (?, ?, ? , ?, ?)");
            pst.setString(1, id);
@@ -241,7 +241,7 @@ private String AutoId()
         // connection ctreation 
         try{
            Class.forName("com.mysql.cj.jdbc.Driver");
-           Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/airline_reservation_system", "root", "Rahul@1234");
+           Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/airline_reservation_system", "root", "shivani@1234");
            
            Statement st = con.createStatement();
             ResultSet set = st.executeQuery("select MAX(AdminId) from admin");
