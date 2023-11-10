@@ -13,7 +13,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author rahul
+ * 
  */
 public class AddCustomer extends javax.swing.JInternalFrame {
 
@@ -349,7 +349,7 @@ public class AddCustomer extends javax.swing.JInternalFrame {
         
         try{
            Class.forName("com.mysql.cj.jdbc.Driver");
-           Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/airline_reservation_system", "root", "Rahul@1234");
+           Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/airline_reservation_system", "root", "shivani@1234");
            
            PreparedStatement pst = con.prepareStatement("insert into customer (CustomerId, FirstName, LastName, PassportNum, NationalId, Address, Contact, Gender,  DOB) values (?, ?, ? , ?, ?, ?, ?, ?, ?)");
            pst.setString(1, id);
