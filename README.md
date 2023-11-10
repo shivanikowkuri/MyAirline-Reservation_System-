@@ -31,27 +31,35 @@ This bio effectively summarizes the Airline Reservation System's key features, t
 Technologies Used:
 The project includes a UI, also known as GUI (Java Swing library), which consists of buttons, text fields, and other graphical elements used to interact with the user.
 Completed login window where we want the admins'  userId, and password
+![login](https://github.com/shivanikowkuri/MyAirline-Reservation_System-/assets/147936662/e74c2321-1d76-45f7-83ef-c505e1dba655)
 
-![Screenshot (168)](https://github.com/rahuljha0810/MyAirline-Reservation_System/assets/108356605/6a8d0ff8-3ef3-4260-9e7a-324b03635939)
 
 Completed main window which hold other menu like customer, flight, Ticket and admin  ;
 Change the background color to blue.
 Run the project and log in.
-![image](https://github.com/rahuljha0810/MyAirline-Reservation_System/assets/108356605/1bfcf8dd-7b19-41b1-a7cc-b631b7344b1d)
+
+![main](https://github.com/shivanikowkuri/MyAirline-Reservation_System-/assets/147936662/b1c6a983-c4c2-4ff3-b7a1-fabb17e09cf8)
+![cusmenu](https://github.com/shivanikowkuri/MyAirline-Reservation_System-/assets/147936662/1094ad59-fb31-4e4c-804c-8dfcd77b5cfd)
+
+
+
+
 
 
 Add a label for "Welcome to the customer panel"
-![image](https://github.com/rahuljha0810/MyAirline-Reservation_System/assets/108356605/f1dc0deb-c507-4a9c-a576-bd3046edba58)
+![Screenshot (40)](https://github.com/shivanikowkuri/MyAirline-Reservation_System-/assets/147936662/618de96e-af42-40d6-aac5-5dddc5b913b6)
 
-![image](https://github.com/rahuljha0810/MyAirline-Reservation_System/assets/108356605/a650b660-14ce-4df0-b6ac-076ffbab837b)
+![customer search](https://github.com/shivanikowkuri/MyAirline-Reservation_System-/assets/147936662/38714d6c-8992-42b2-bd15-86623aa34639)
+
 
 Design book ticket panel with flight search options and table. Enter customer ID to search for specific customer and then create ticket ID label
-![image](https://github.com/rahuljha0810/MyAirline-Reservation_System/assets/108356605/fc878852-d865-4d97-ab89-766641ac3252)
+![Screenshot (38)](https://github.com/shivanikowkuri/MyAirline-Reservation_System-/assets/147936662/9db42dce-54ac-4c9d-9638-bfc244019961)
 
 Start building the panel by adding a search panel with arrival and departure options and fill details of customer Your customerId by search Option.
 Include message for searching flights based on arrival and departure.
-![image](https://github.com/rahuljha0810/MyAirline-Reservation_System/assets/108356605/698b21b6-6023-498a-bd40-0629fca8cd15)
-![image](https://github.com/rahuljha0810/MyAirline-Reservation_System/assets/108356605/6730c11e-a3bd-4035-8f65-f23b8512860f)
+![Screenshot (37)](https://github.com/shivanikowkuri/MyAirline-Reservation_System-/assets/147936662/8b11e6c5-6a9f-4b61-9b15-5332708b56a7)
+![Screenshot (36)](https://github.com/shivanikowkuri/MyAirline-Reservation_System-/assets/147936662/f7c88963-ce74-4fd4-8dfc-c50069dc7c90)
+
 
 We made a databases : airline_reservation_system 
 we made 4 tables;
@@ -59,13 +67,14 @@ a). admin
 b). customer
 c). ticket
 d). flight
-![image](https://github.com/rahuljha0810/MyAirline-Reservation_System/assets/108356605/4418bf71-ec53-4def-9433-9f8fc232f8ea)
+![Screenshot (35)](https://github.com/shivanikowkuri/MyAirline-Reservation_System-/assets/147936662/5328a649-ead2-4a6e-a2f3-12f5bcafbdfa)
 
 After filling all the feild of Book tickets you can see the Ticket from get ticket Internal frame.
 Use Net Bean for making Simplest GUI using its Pallets feature.
 
 You have to add JCalender pallets using a JAR File 1.4
 you can download it from : https://toedter.com/jcalendar/ 
-![image](https://github.com/rahuljha0810/MyAirline-Reservation_System/assets/108356605/b52d5ccc-470d-43c3-a536-37ef3e9070b8)
+![get ticket](https://github.com/shivanikowkuri/MyAirline-Reservation_System-/assets/147936662/1165365c-2f7d-4541-9a44-29ca5333e386)
 
-ThankYou
+
+ThankYou!
